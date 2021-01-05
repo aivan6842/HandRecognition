@@ -19,10 +19,10 @@ matrix
 
 # The Included Files
 There are 4 main files included:
-  ```Hand Tracking.ipynb```: This is a script which you can interactively classify real time images of your own hand! Once the script is run, the green square in the middle
+  * ```Hand Tracking.ipynb```: This is a script which you can interactively classify real time images of your own hand! Once the script is run, the green square in the middle
                              is where you can place your hand. Pressing ```y``` will take a snapshot and classify the image.
-  ```modelParams.pth```: This is file which contains the parameters for the model which I have trained. You can load them into any script that you want. There should be an example
+  * ```modelParams.pth```: This is file which contains the parameters for the model which I have trained. You can load them into any script that you want. There should be an example
                         of this in ```Hand Tracking.ipynb```.
-  ```TrainingDataCollector.ipynb```: This is a simple file which saves training data to a directory on your computer. This is what I used to gather training data and you can use
+  * ```TrainingDataCollector.ipynb```: This is a simple file which saves training data to a directory on your computer. This is what I used to gather training data and you can use
                                     you can use it too!
-  ```TransferLearn.ipynb```: This is the file where the transfer learning and training takes place. This is also where I save and evaluate the model.
+  * ```TransferLearn.ipynb```: This is the file where the transfer learning and training takes place. This is also where I save and evaluate the model.
