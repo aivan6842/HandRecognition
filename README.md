@@ -4,7 +4,7 @@ module by creating, training and utilizing a model. I was able to so by using tr
 
 # Transfer Learning
 To start of this project I knew that I would not have a lot of data and building a convolutional neural network might not be the best idea since it would require a decent amount
-of data. This is where transfer learning helped. I ended up using ResNet-18 as a feature extractor and onl;y modifying the last layer to match the number of classes that I had(5).
+of data. This is where transfer learning helped. I ended up using ResNet-18 as a feature extractor and only modifying the last layer to match the number of classes that I had(5).
 This helped in a number of ways. Firstly, the training time was much shorter than it would have been to train a full ResNet-18 model. Since I was only modifying the last layer, I
 didn't need to compute gradients or the optimal weights and baises for all the parameters of the previous layers. This computation would only have to be done for the last layer.
 As mentioned, perhaps the best feature of transfer learning was that it didn't need as much data as usual. I was able to train an ok model with roughly 150 training images for
